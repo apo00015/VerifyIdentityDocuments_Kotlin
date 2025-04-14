@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/apariencia">
+
+        <ListPreference
+            app:defaultValue="es"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_values"
+            app:key="key_language"
+            app:title="@string/idioma"
+            app:negativeButtonText="Cancelar"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            app:key="key_theme"
+            app:title="@string/theme_dark" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/text_accesibiilidad">
+
+        <SwitchPreferenceCompat
+            app:key="key_sintesisVoz"
+            app:title="@string/text_sintexis_de_voz" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/informacion" >
+        <Preference android:title="Chatbot" android:key="key_chatBot"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

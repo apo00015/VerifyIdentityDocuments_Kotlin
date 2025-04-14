@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Priyect" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Banda de colores primaria -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Banda de colores secundaria -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Color de la barra de arriba -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Estilo para el fondo de escribir el mensaje-->
+    <style name="linearLayoutChatBot">
+        <item name="android:background">@color/gris</item>
+    </style>
+
+    <style name="editTextChatBot">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor"> @color/black</item>
+    </style>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout_acercaDe">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/width_foto_acercaDe"
+                android:layout_height="@dimen/height_foto_acercaDe"
+                android:src="@drawable/uja"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView_titulo_acercaDe"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="@dimen/maginStart_acercaDe"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/size_titulo_acercaDe"
+            android:text="@string/acerca_de_title" />
+
+        <TextView
+            android:id="@+id/textView_texto_acercaDe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/maginStart_acercaDe"
+            android:layout_marginEnd="@dimen/maginStart_acercaDe"
+            android:text="@string/acerca_de_content"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

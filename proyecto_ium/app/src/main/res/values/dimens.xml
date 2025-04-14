@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Icono App SplashScreen -->
+    <dimen name="width_icon_splashscreen">200sp</dimen>
+    <dimen name="height_icon_splashscreen">200sp</dimen>
+
+    <dimen name="width_foto_acercaDe">100sp</dimen>
+    <dimen name="height_foto_acercaDe">100sp</dimen>
+    <dimen name="size_titulo_acercaDe">20sp</dimen>
+    <dimen name="maginStart_acercaDe">10sp</dimen>
+</resources>

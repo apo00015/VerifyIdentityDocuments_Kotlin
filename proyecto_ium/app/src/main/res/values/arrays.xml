@@ -1,0 +1,14 @@
+<resources>
+    <!-- Nombre de los idiomas -->
+    <string-array name="reply_entries">
+        <item>Español</item>
+        <item>Français</item>
+    </string-array>
+
+    <!-- Código local de los idiomas -->
+    <string-array name="reply_values">
+        <item>es</item>
+        <item>fr</item>
+    </string-array>
+
+</resources>

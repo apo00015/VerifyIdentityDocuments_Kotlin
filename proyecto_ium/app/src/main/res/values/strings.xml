@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="title_home">Casa</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Configuración</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+    <string name="verificacion_usuario">Verificación del usuario</string>
+    <string name="comenzar_validacion">Comenzar validación</string>
+    <string name="camara">Cámara</string>
+    <string name="galeria">Galeria</string>
+    <string name="select_action">Seleccionar acción</string>
+    <string name="select_galeria">Seleccionar imagen desde galería</string>
+    <string name="select_camera">Tomar imagen desde cámara</string>
+    <string name="error_front_title">Error al validar la cara frontal del DNI</string>
+    <string name="error_front_content">Por favor, introduzca una imagen en la que la cara frontal del dni sea visible</string>
+    <string name="error_speak_front">La imagen introducida no es válida</string>
+    <string name="apariencia">Apariencia</string>
+    <string name="idioma">Idioma</string>
+    <string name="theme_dark">Tema oscuro</string>
+    <string name="informacion">Información</string>
+    <string name="acerca_de" translatable="false">Acerca de</string>
+    <string name="acerca_de_title" translatable="false">Titulo acerca de</string>
+    <string name="acerca_de_content" translatable="false">Contenido de acerca de</string>
+    <string name="cara_detectada">Cara detectada</string>
+    <string name="dni">DNI</string>
+    <string name="speak_front_dni">El dni es:</string>
+    <string name="text_continuar">Continuar</string>
+    <string name="text_nombreApellidos">Nombre y apellidos</string>
+    <string name="text_fechaNacimiento">Fecha de nacimiento (YY/MM/DD)</string>
+    <string name="text_fechaCaducidad">Fecha de caducidad (YY/MM/DD)</string>
+    <string name="text_sexo">Sexo</string>
+    <string name="text_nacionalidad">Nacionalidad</string>
+    <string name="text_boton_terminar">Terminar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="speak_response_no">De acuerdo, lo dejaremos para más adelante</string>
+    <string name="text_sintexis_de_voz">Síntesis de voz</string>
+    <string name="text_accesibiilidad">Accesibilidad</string>
+    <string name="title_cara_frontal">Validación parte frontal</string>
+    <string name="title_cara_trasera">Validación parte trasera</string>
+    <string name="speak_terminar">Para terminar y enviar los datos diga sí.</string>
+    <string name="speak_nombreApelllidos_back">El nombre y los apellidos obtenidos son:</string>
+    <string name="speak_fechaNacimiento_back">La fecha de nacimiento es el:</string>
+    <string name="speak_fechaCaducidad_back">La fecha de caducidad es el:</string>
+    <string name="speak_sexo_back">El sexo es:</string>
+    <string name="speak_nacionalidad_back">La nacionalidad es:</string>
+    <string name="text_nacionalidad_ESP">ESPAÑOLA</string>
+    <string name="text_nacionalidad_FRA">Francesa</string>
+    <string name="text_enero">de enero del</string>
+    <string name="text_febrero">de febero del</string>
+    <string name="text_marzo">de marzo del</string>
+    <string name="text_abril">de abril del</string>
+    <string name="text_mayo">de mayo del</string>
+    <string name="text_junio">de junio del</string>
+    <string name="text_julio">de julio del</string>
+    <string name="text_agosto">de agosto del</string>
+    <string name="text_septiembre">de septiembre del</string>
+    <string name="text_octubre">de octubre del</string>
+    <string name="text_noviembre">de noviembre del</string>
+    <string name="text_diciembre">de diciembre del</string>
+    <string name="text_masculino">Masculino</string>
+    <string name="text_femenino">Femenino</string>
+    <string name="speak_back_noEnviar">De acuerdo, lo dejaremos para más adelante</string>
+    <string name="speak_error_terminar">Por favor, revise que todos los campos estén rellenos.</string>
+    <string name="error_speak_front_dni">No se ha podido identificar ningún DNI</string>
+    <string name="speak_dni_no_iguales">El dni no coincide en ambas caras</string>
+    <string name="error_dni_no_iguales_title">Error en DNIs</string>
+    <string name="error_back_campos_no_rellenos">En la imagen no se reconocen todos los campos obligatorios.</string>
+    <string name="error_back_dni">No se ha conseguido reconocer el dni</string>
+    <string name="text_mensaje">Mensaje....</string>
+    <string name="text_enviar">Enviar</string>
+    <string name="tittle_activity_chatbot" translatable="false">Chatbot</string>
+    <string name="error_cara_selfie">No se ha detectado ninguna cara</string>
+    <string name="error_title_cara_selfie">Detección de rostro en un selfie</string>
+    <string name="comparar_faces_title">Comparar rostros</string>
+    <string name="cara_dni">Cara Documento de identidad</string>
+    <string name="cara_selfie">Cara selfie</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+</resources>
